@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{isset(@page.title)?@page.title:""}}</title>
+        <!-- add your own css here -->
+    </head>
+    <body>
+        <include href="{{@page.location}}" if="{{isset(@page.location)}}" />
+    </body>
+</html>
