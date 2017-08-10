@@ -11,10 +11,12 @@
     ],
     "minimum-stability": "beta",
     "require": {
-        "bcosca/fatfree-core": "^3.6",
-        "rafamds/f3-falsum": "^2.6"
+        "bcosca/fatfree-core": "^3.6"
     },
     "config": {
         "vendor-dir": "app/vendor"
+    },
+    "require-dev": {
+        "rafamds/f3-falsum": "^2.6"
     }
 }

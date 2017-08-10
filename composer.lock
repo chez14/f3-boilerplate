@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "76d62d4be249a3e96fba9c800584bc02",
+    "content-hash": "9d172102f67664196a599d4f3e853cbe",
     "packages": [
         {
             "name": "bcosca/fatfree-core",
@@ -36,7 +36,9 @@
             "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
             "homepage": "http://fatfreeframework.com/",
             "time": "2017-06-26T10:03:43+00:00"
-        },
+        }
+    ],
+    "packages-dev": [
         {
             "name": "rafamds/f3-falsum",
             "version": "v2.6",
@@ -88,7 +90,6 @@
             "time": "2017-01-30T13:35:08+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": [],
