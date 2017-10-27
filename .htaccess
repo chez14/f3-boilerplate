@@ -1,23 +1,6 @@
-# Enable rewrite engine and route requests to framework
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .* index.php [L,QSA]
-
-# Disable ETags
-<IfModule mod_headers.c>
-	Header Unset ETag
-	FileETag none
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteRule    ^$    public_html/    [L]
+    RewriteRule    (.*) public_html/$1    [L]
 </IfModule>
-
-# Default expires header if none specified (stay in browser cache for 7 days)
-<IfModule mod_expires.c>
-	ExpiresActive On
-	ExpiresDefault A604800
-</IfModule>
-
-ErrorDocument 404 /index.php
-ErrorDocument 403 /index.php
-ErrorDocument 500 /index.php
-ErrorDocument 400 /index.php

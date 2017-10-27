@@ -14,7 +14,7 @@
         "bcosca/fatfree-core": "^3.6"
     },
     "config": {
-        "vendor-dir": "app/vendor"
+        "vendor-dir": "vendor"
     },
     "require-dev": {
         "rafamds/f3-falsum": "^2.6"
