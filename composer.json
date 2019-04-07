@@ -17,6 +17,6 @@
         "vendor-dir": "vendor"
     },
     "require-dev": {
-        "rafamds/f3-falsum": "^2.6"
+        "ikkez/f3-falsum": "^2.6"
     }
 }
