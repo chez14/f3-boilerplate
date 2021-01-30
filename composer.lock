@@ -1,0 +1,114 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1b4cef511ea1193106efbb6f36606067",
+    "packages": [
+        {
+            "name": "bcosca/fatfree-core",
+            "version": "3.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcosca/fatfree-core.git",
+                "reference": "3e23ae05384b2f830e99c5888b94118819ed948b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/3e23ae05384b2f830e99c5888b94118819ed948b",
+                "reference": "3e23ae05384b2f830e99c5888b94118819ed948b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "issues": "https://github.com/bcosca/fatfree-core/issues",
+                "source": "https://github.com/bcosca/fatfree-core/tree/3.7.3"
+            },
+            "time": "2020-12-13T12:49:39+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "ikkez/f3-falsum",
+            "version": "v2.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ikkez/f3-falsum.git",
+                "reference": "cf2a855b41ab69349527b631adb844e761506ece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ikkez/f3-falsum/zipball/cf2a855b41ab69349527b631adb844e761506ece",
+                "reference": "cf2a855b41ab69349527b631adb844e761506ece",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Falsum\\": "src/Falsum/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Morais dos Santos",
+                    "homepage": "https://ra.fael.ml",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Christian Knuth",
+                    "homepage": "https://ikkez.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pretty error handling for Fat-Free Framework",
+            "homepage": "https://github.com/ikkez/f3-falsum",
+            "keywords": [
+                "F3",
+                "error",
+                "exception",
+                "falsum",
+                "fat-free framework",
+                "handling",
+                "library"
+            ],
+            "support": {
+                "issues": "https://github.com/ikkez/f3-falsum/issues",
+                "source": "https://github.com/ikkez/f3-falsum/tree/v2.8.1"
+            },
+            "time": "2020-12-06T18:29:00+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "beta",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
